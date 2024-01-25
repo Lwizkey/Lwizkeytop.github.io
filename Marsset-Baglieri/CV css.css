@@ -1,0 +1,45 @@
+body {
+    background-color:darkred;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: darkred;
+    }
+}
+
+#photo {
+    color : antiquewhite;
+    text-align: center;
+    font-size: 30px; 
+    text-decoration:underline; 
+}
+
+
+table {
+    background-color:antiquewhite ;
+}
+
+
+th {
+    color : darkred ;
+    text-align: center;
+    font-size: 30px; 
+    text-decoration:underline;
+}
+
+li{
+    color: darkred ;
+    font-size: 15px; 
+}
+
+@media print {
+    nav,footer {
+        display : none
+    }
+
+body {
+    width: 210mm ;
+    height: 297mm ;
+    }    
+  }
